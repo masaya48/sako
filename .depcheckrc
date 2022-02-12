@@ -1,0 +1,11 @@
+ignores: [
+  "@storybook/*",
+  "@types/*",
+  "@emotion/jest",
+  "sass-loader",
+  "cpoo",
+  "typesync",
+  "depcheck",
+  "react-scripts"
+]
+skip-missing: true
