@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
     "postinstall": "typesync --ignoredeps=dev && yarn check --integrity || yarn install --ignore-scripts && yarn-deduplicate"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@storybook/addon-actions": "^6.4.13",
     "@storybook/addon-essentials": "^6.4.13",
     "@storybook/addon-links": "^6.4.13",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.4.13",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
