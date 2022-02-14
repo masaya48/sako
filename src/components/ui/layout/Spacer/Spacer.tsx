@@ -1,5 +1,5 @@
 import React, {VFC} from 'react'
-import {classNames} from "../../../../utils/classNames";
+import {classNames} from '../../../../utils/classNames'
 
 export type Props = {
   size?: Size
@@ -20,8 +20,8 @@ export enum Size {
 }
 
 const directionClassNames :Record<Direction, string> = {
-  [Direction.HORIZONTAL]: `inline-block h-auto`,
-  [Direction.VERTICAL]: `block w-full `
+  [Direction.HORIZONTAL]: 'inline-block h-auto',
+  [Direction.VERTICAL]: 'block w-full '
 }
 
 const sizeClassNames: Record<Size, Record<Direction, string>> = {
