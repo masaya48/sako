@@ -14,3 +14,8 @@ const Template: ComponentStory<typeof Input> = (args) => <Input {...args}/>
 export const Normal = Template.bind({})
 Normal.args = {
 }
+
+export const Error = Template.bind({})
+Error.args = {
+  error: true
+}

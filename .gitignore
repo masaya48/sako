@@ -38,3 +38,7 @@ yarn-error.log*
 
 # webstorm
 .idea
+
+# storybook
+storybook-static
+build-storybook.log

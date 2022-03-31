@@ -12,15 +12,17 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args}>ãƒœã
 export const Default = Template.bind({})
 Default.args = {
   color: 'default',
-  size: 'm'
+  size: 's'
 }
 
 export const Primary = Template.bind({})
 Primary.args = {
-  color: 'primary'
+  color: 'primary',
+  size: 'm'
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-  color: 'secondary'
+  color: 'secondary',
+  size: 'l'
 }

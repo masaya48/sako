@@ -20,7 +20,7 @@ export const Button: FC<Props> = ({
     className={classNames(baseClassNames, sizeClassNames[size], colorClassNames[color])}
   >{children}</button>
 
-const baseClassNames = 'py-sm px-md rounded-md border-solid shadow-lg text-bold border hover:opacity-75'
+const baseClassNames = 'py-sm px-md rounded-md border-solid shadow-lg text-bold border hover:opacity-75 text-sm'
 
 const sizeClassNames: Record<Size, string> = {
   s: 'w-24',
