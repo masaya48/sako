@@ -10,7 +10,7 @@
     "postinstall": "typesync --ignoredeps=dev && yarn check --integrity || yarn install --ignore-scripts && yarn-deduplicate"
   },
   "dependencies": {
-    "next": "12.1.2",
+    "next": "12.1.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "swr": "1.2.2",
