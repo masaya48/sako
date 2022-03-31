@@ -30,7 +30,7 @@ const sizeClassNames: Record<Size, string> = {
 }
 
 const colorClassNames: Record<Color, string> = {
-  primary: 'bg-cyan-400 text-white border-cyan-400',
-  secondary: 'bg-orange-400 text-white border-orange-400',
+  primary: 'bg-sky-400 text-white border-sky-400',
+  secondary: 'bg-neutral-400 text-white border-neutral-400',
   default: 'text-slate-700 border-slate-700'
 }
