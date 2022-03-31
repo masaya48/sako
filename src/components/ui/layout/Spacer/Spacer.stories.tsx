@@ -3,7 +3,7 @@ import {ComponentMeta, ComponentStory} from '@storybook/react'
 import {Direction, Size, Spacer} from './Spacer'
 
 export default {
-  title: 'layout/Spacer',
+  title: 'ui/layout/Spacer',
   component: Spacer
 } as ComponentMeta<typeof Spacer>
 
